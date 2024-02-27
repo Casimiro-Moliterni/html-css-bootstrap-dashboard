@@ -2,10 +2,16 @@
     height: 70px;
 }
 
-.ms-main{
-    height: calc(100vh - 70px);
-}
 
+body{
+    height: 100vh;
+}
+.ms-main{
+    height: calc(100% - 70px);
+}
+.ms-bg-lightblue{
+    background-color: #1b72e8;
+}
 
 
 /* ----color-----  */
