@@ -2,7 +2,9 @@
     height: 70px;
 }
 
-
+.ms-main{
+    height: calc(100vh - 70px);
+}
 
 
 

@@ -13,13 +13,14 @@
 </head>
 <body>
     <!-- header  -->
-    <header class="ms-header p-3 ms-bg-light">
+    <header class="ms-header p-3 ms-bg-light sticky-top">
         <nav class="container-fluid">
         <div class="row align-items-center flex-nowrap">
           <div class="col-auto pe-0">
             <div class="bg-white p-2">
-                <img class=""  src="./img/logo.svg" alt="logo-big">
-            </div> 
+                <img class="d-none d-lg-flex mw-100"  src="./img/logo.svg" alt="logo-big">
+                <img  class="d-none img-fluid"  src="./img/mobile-logo.png" alt="mobilelogo">
+            </div>
           </div>
           <div class="col ps-0">
                 <div class="ms-bg-lightgrey d-flex h-100 p-2 d-flex align-items-center gap-2 rounded-2">
@@ -31,16 +32,30 @@
                 </div>
           </div>
           <div class="col-auto flex-shrink-0">
-               <div class="d-flex gap-4">
-                 <i class="fa-solid fa-list"></i>
-                 <i class="fa-solid fa-circle-question"></i>
-                 <i class="fa-solid fa-ellipsis-vertical"></i>
+               <div class="d-flex gap-4 ">
+                 <i class="fa-solid fa-list d-none d-sm-none d-md-none d-lg-flex"></i>
+                 <i class="fa-solid fa-circle-question d-none d-sm-none d-md-none d-lg-flex"></i>
+                 <i class="fa-solid fa-ellipsis-vertical d-none d-sm-none d-md-none d-lg-flex"></i>
                  <i class="fa-solid fa-bell"></i>
                </div>
           </div>
         </div>
     </nav>
     </header>
+    <main class="ms-main">
+        <div class="container-fluid d-flex px-0 h-100">
+            <div class="px- bg-black text-white flex-shrink-0">
+                <ul class="">
+                    <li class="">An item</li>
+                    <li class="">A second item</li>
+                    <li class="">A third item</li>
+                  </ul>
+                  <div class="mt-auto">
+                    ciao
+                  </div>
+            </div>
+        </div>
+    </main>
     <!-- link script  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <!-- /link script  -->
