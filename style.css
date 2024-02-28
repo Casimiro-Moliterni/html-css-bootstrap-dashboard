@@ -59,6 +59,9 @@ body{
 .ms-icon i:hover{
     transform: scale(1.2);
 }
+.ms-dropdown>a:hover {
+    background-color: rgba(25, 25, 215, 0.901);
+}
 
 .ms-ul-sidebar:hover .ms-icon-rounded,
 .ms-ul-sidebar li:hover{
