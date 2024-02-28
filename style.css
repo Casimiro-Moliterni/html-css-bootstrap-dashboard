@@ -13,6 +13,16 @@ body{
     background-color: #1b72e8;
 }
 
+.ms-sidebar{
+    background-image: url("./img/sidebar-bg.png");
+    background-color: #051e34;
+}
+
+.ms-logo-mobile>img{
+   height: 50px;
+}
+
+
 
 /* ----color-----  */
 .ms-bg-light{
@@ -22,3 +32,31 @@ body{
 .ms-bg-lightgrey{
     background-color: #e5e5e5;
 }
+.ms-bg-darkblue{
+    background-color: #051e34;
+}
+.ms-color-grey{
+    color: #5b5858;
+}
+.ms-color-orange{
+    color: #ff8f00;
+}
+.ms-bg-blue{
+    background-color: #165bba;
+}
+
+
+.ms-btn-blue{
+    background-color: #165bba;
+    color: white;
+    font-size: 14px;
+    padding: 6px 6px;
+    border: none;
+}
+
+
+ @media (max-width: 991.98px) { 
+    .ms-cl-offcanvas{
+        width: 100%;
+    }
+  }
