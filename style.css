@@ -46,12 +46,10 @@ body{
 }
 
 
-.ms-btn-blue{
-    background-color: #165bba;
-    color: white;
-    font-size: 14px;
-    padding: 6px 6px;
-    border: none;
+
+
+.ms-button-student:hover .ms-icon-plus{
+    color: black;
 }
 
 
@@ -60,3 +58,4 @@ body{
         width: 100%;
     }
   }
+
