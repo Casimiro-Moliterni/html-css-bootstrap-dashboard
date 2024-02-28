@@ -45,6 +45,15 @@ body{
     background-color: #165bba;
 }
 
+.ms-grey-icon{
+    color: #6c757d;
+}
+
+.ms-btn-icon{
+    border: 1px solid #6c757d;
+}
+
+
 .ms-icon-header-rotate{
  
     transition: width 1s, height 1s, transform 1s;
@@ -81,10 +90,23 @@ body{
     color: black;
 }
 
+.ms-button-student{
+    border: 1px solid white;
+}
 
- @media (max-width: 991.98px) { 
-    .ms-cl-offcanvas{
-        width: 100%;
+.h-30px{
+    height: 30px;
+    background-color: white;
+}
+.ms-w-70{
+    width: 70%;
+}
+
+ @media (min-width: 991.98px) { 
+    .ms-row-student{
+        justify-content: center;
+        padding-right: 2rem;
+        gap: 2rem;
     }
   }
 

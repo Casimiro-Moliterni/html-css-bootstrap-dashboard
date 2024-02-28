@@ -14,27 +14,25 @@
 </head>
 <body class="fw-medium ">
     <!-- header  -->
-    <header class="ms-header py-lg-3 ms-bg-light sticky-top">
+    <header class=" ms-bg-light sticky-top">
         <nav class="container-fluid bg-white">
-        <div class="row align-items-center flex-nowrap">
+        <div class="row align-items-center flex-nowrap ms-header">
           <div class="col-auto pe-0">
-            <div class="bg-white p-lg-2 ">    
+            <div class="bg-white pe-lg-1 ">    
               <img class="d-none d-lg-flex mw-100 pe-3 ps-2"  src="./img/logo.svg" alt="logo-big">
             </div>
             <div class="ms-logo-mobile pe-4 ">
               <img  class="mw-100 d-lg-none img-fluid ps-2"  src="./img/mobile-logo.png" alt="mobilelogo">
             </div>
           </div>
-          <div class="col ps-0">
+          <div class="col ps-0 ps-3 ps-lg-0">
                 <div class="ms-bg-lightgrey d-flex h-100 p-2 d-flex align-items-center gap-2 rounded-2 ms-header-col-center">
                     <i class="fa-solid fa-magnifying-glass ms-icon-glass"></i>
                    
                         <input type="text" id="search"  placeholder="Prova a cercare:Lezioni di Lavarel"  aria-placeholder="10"        class=" w-100  border-0 ms-bg-lightgrey pe-3"> 
-                       
-                    
                 </div>
           </div>
-          <div class="col-auto flex-shrink-0 pe-3 ms-icon">
+          <div class="col-auto flex-shrink-0 pe-1 ms-icon ">
                <div class="d-flex gap-4 ">
                  <i class="fa-solid fa-list d-none d-sm-none d-md-none d-lg-flex  ms-color-grey"></i>
                  <i class="fa-solid fa-circle-question d-none d-sm-none d-md-none d-lg-flex ms-color-grey"></i>
@@ -75,14 +73,14 @@
                <div class="row g-3 g-lg-0">
                 <div class="col-12 col-md-4 col-lg-6 order-md-0 order-2">
                   <div class="row py-2">
-                    <div class="col-12 d-flex align-items-center gap-2 flex-shrink-0">
+                    <div class="col-12 d-flex align-items-center gap-2 ">
                          <h2>Boolean</h2>
                          <button type="button" class="btn btn-primary rounded-pill ms-bg-blue text-white  d-lg-flex fw-medium"
                          style="--bs-btn-padding-y: .18rem; --bs-btn-padding-x: .6rem; --bs-btn-font-size: .75rem;">
                          Plane blaze
                          </button>
                     </div>
-                    <div class="col-12 d-flex align-items-center gap-2 flex-shrink-0">
+                    <div class="col-12 d-flex align-items-center gap-2 ">
                       <button type="button" class="btn btn-primary rounded-pill ms-bg-blue text-white  d-lg-flex fw-medium"
                       style="--bs-btn-padding-y: .18rem; --bs-btn-padding-x: .6rem; --bs-btn-font-size: .75rem;">
                        3 app
@@ -112,11 +110,11 @@
                 <div>Studenti online negli ultimi 30 giorni</div>
                 <h1>125</h1>
                 </div>
-                <div class="col-12 col-md-4 col-lg-2 order-md-0 order-1 d-flex align-items-center gap-5">
+                <div class="col-12 col-md-4 col-lg-2 order-md-0 order-1 d-flex align-items-center gap-3 pb-md-5 ms-row-student ">
                    <div>Nuovo Studente</div>
                    <button class="border-white py-2 px-3 rounded-2 border-white ms-bg-lightblue text-white ms-button-student d-flex align-items-center"data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" >
                     <i class="fa-solid fa-plus ms-icon-plus fs-5"></i></button>
-                    <div class="offcanvas offcanvas-end ms-cl-offcanvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas offcanvas-end ms-cl-offcanvas w-50" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                       <div class="offcanvas-header">
                         <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
                         <button type="button" class="btn-close " data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -202,73 +200,163 @@
                                     <div class="card-header h3">
                                       Featured
                                     </div>
-                                    <div class="table-responsive">
+                                    <div class="table-responsive p-3">
                                         <table class="table m-0">
                                          <thead>
-                                            <tr>
-                                                <th>Nome</th>
-                                                <th>Nome</th>
-                                                <th>Nome</th>
-                                                <th>Nome</th>
-                                                <th>Nome</th>
+                                            <tr >
+                                                <th class="ms-w-70">Nome</th>
+                                                <td>Data inizio</td>
+                                                <td>ROI</td>
+                                                <td>Stato</td>
+                                                <td>Azioni</td>
                                             </tr>
                                          </thead>
                                          <tbody>
                                             <tr>
-                                                <th>nome</th>
-                                                <th>nome</th>
-                                                <th>nome</th>
-                                                <th>nome</th>
-                                                <th>nome</th>
+                                              <td>
+                                                <div class="bg-whites d-flex align-items-center gap-2">
+                                                 <img class="img-fluid h-30px rounded-pill" src="./img/class-avatar.jpg" alt="">
+                                                 <span>Classe 75</span>
+                                               </div>
+                                             </td>
+                                              <td>15 Feb 2021</td>
+                                              <td>20%</td>
+                                              <td>
+                                                <button type="button" class="btn btn-success rounded-4 text-center"
+                                                style="--bs-btn-padding-y: .0rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .75rem;">
+                                           Done 
+                                           </button>
+                                              </td>
+                                              <td class="ps-0">
+                                                <div class="ms-grey-icon d-flex gap-1">
+                                                  <button class="btn btn-outline ms-btn-icon">
+                                                    <i class="fa-solid fa-pen ms-grey-icon"></i>
+                                                  </button>
+                                                   
+                                                  <button class="btn btn-outline ms-btn-icon">
+                                                    <i class="fa-solid fa-trash ms-grey-icon"></i>
+                                                  </button>
+                                                </div>
+                                              </td>
                                             </tr>
                                             <tr>
-                                                <th>nome</th>
-                                                <th>nome</th>
-                                                <th>nome</th>
-                                                <th>nome</th>
-                                                <th>nome</th>
+                                              <td>
+                                                <div class="bg-whites d-flex align-items-center gap-2">
+                                                  <img class="img-fluid h-30px rounded-pill" src="./img/class-avatar.jpg" alt="">
+                                                  <span>Classe 76</span>
+                                                </div>
+                                              </td>
+                                              <td>15 Feb 2021</td>
+                                              <td>20%</td>
+                                              <td>
+                                                <button type="button" class="btn btn-success rounded-4 text-center"
+                                                style="--bs-btn-padding-y: .0rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .75rem;">
+                                           Done 
+                                           </button>
+                                              </td>
+                                              <td>nome</td>
                                             </tr>
                                             <tr>
-                                                <th>nome</th>
-                                                <th>nome</th>
-                                                <th>nome</th>
-                                                <th>nome</th>
-                                                <th>nome</th>
+                                              <td >
+                                                <div class="bg-whites d-flex align-items-center gap-2">
+                                                  <img class="img-fluid h-30px rounded-pill" src="./img/class-avatar.jpg" alt="">
+                                                  <span>Classe 77</span>
+                                                </div>
+                                              </td>
+                                              <td>15 Feb 2021</td>
+                                              <td>20%</td>
+                                              <td>
+                                                <button type="button" class="btn btn-warning rounded-4 text-center text-white"
+                                                  style="--bs-btn-padding-y: .0rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .75rem;">
+                                                   process
+                                                 </button>
+                                              </td>
+                                              <td>nome</td>
                                             </tr>
                                             <tr>
-                                                <th>nome</th>
-                                                <th>nome</th>
-                                                <th>nome</th>
-                                                <th>nome</th>
-                                                <th>nome</th>
+                                              <td>
+                                                <div class="bg-whites d-flex align-items-center gap-2">
+                                                  <img class="img-fluid h-30px rounded-pill" src="./img/class-avatar.jpg" alt="">
+                                                  <span>Classe 78</span>
+                                                </div>
+                                              </td>
+                                              <td>15 Feb 2021</td>
+                                              <td>20%</td>
+                                              <td>
+                                                <button type="button" class="btn btn-success rounded-4 text-center"
+                                                style="--bs-btn-padding-y: .0rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .75rem;">
+                                           Done 
+                                           </button>
+                                              </td>
+                                              <td>nome</td>
                                             </tr>
                                             <tr>
-                                                <th>nome</th>
-                                                <th>nome</th>
-                                                <th>nome</th>
-                                                <th>nome</th>
-                                                <th>nome</th>
+                                              <td>
+                                                <div class="bg-whites d-flex align-items-center gap-2">
+                                                  <img class="img-fluid h-30px rounded-pill" src="./img/class-avatar.jpg" alt="">
+                                                  <span>Classe 79</span>
+                                                </div>
+                                              </td>
+                                              <td>15 Feb 2021</td>
+                                              <td>20%</td>
+                                              <td>
+                                                <button type="button" class="btn btn-danger rounded-4 text-center"
+                                                style="--bs-btn-padding-y: .0rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .75rem;">
+                                             failed
+                                           </button>
+                                              </td>
+                                              <td>nome</td>
                                             </tr>
                                             <tr>
-                                                <th>nome</th>
-                                                <th>nome</th>
-                                                <th>nome</th>
-                                                <th>nome</th>
-                                                <th>nome</th>
+                                              <td>
+                                                <div class="bg-whites d-flex align-items-center gap-2">
+                                                  <img class="img-fluid h-30px rounded-pill" src="./img/class-avatar.jpg" alt="">
+                                                  <span>Classe 80</span>
+                                                </div>
+                                              </td>
+                                              <td>15 Feb 2021</td>
+                                              <td>20%</td>
+                                              <td>
+                                                <button type="button" class="btn btn-success rounded-4 text-center"
+                                                style="--bs-btn-padding-y: .0rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .75rem;">
+                                           Done 
+                                           </button>
+                                              </td>
+                                              <td>nome</td>
                                             </tr>
                                             <tr>
-                                                <th>nome</th>
-                                                <th>nome</th>
-                                                <th>nome</th>
-                                                <th>nome</th>
-                                                <th>nome</th>
+                                              <td>
+                                                <div class="bg-whites d-flex align-items-center gap-2">
+                                                  <img class="img-fluid h-30px rounded-pill" src="./img/class-avatar.jpg" alt="">
+                                                  <span>Classe 81</span>
+                                                </div>
+                                              </td>
+                                              <td>15 Feb 2021</td>
+                                              <td>20%</td>
+                                              <td>
+                                                <button type="button" class="btn btn-danger rounded-4 text-center"
+                                                style="--bs-btn-padding-y: .0rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .75rem;">
+                                             failed
+                                           </button>
+                                              </td>
+                                              <td>nome</td>
                                             </tr>
                                             <tr>
-                                                <th>nome</th>
-                                                <th>nome</th>
-                                                <th>nome</th>
-                                                <th>nome</th>
-                                                <th>nome</th>
+                                              <td>
+                                                <div class="bg-whites d-flex align-items-center gap-2">
+                                                  <img class="img-fluid h-30px rounded-pill" src="./img/class-avatar.jpg" alt="">
+                                                  <span>Classe 82</span>
+                                                </div>
+                                              </td>
+                                              <td>15 Feb 2021</td>
+                                              <td>20%</td>
+                                              <td>
+                                                <button type="button" class="btn btn-success rounded-4 text-center"
+                                                style="--bs-btn-padding-y: .0rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .75rem;">
+                                           Done 
+                                           </button>
+                                              </td>
+                                              <td>nome</td>
                                             </tr>
                                          </tbody>
                                         </table>
