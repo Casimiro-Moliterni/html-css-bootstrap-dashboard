@@ -46,6 +46,10 @@ body{
 }
 
 
+.ms-header-col-center:hover .ms-icon-glass{
+    transform: scale(1.1);
+}
+
 .ms-ul-sidebar:hover .ms-icon-rounded,
 .ms-ul-sidebar li:hover{
     background-color: rgba(110, 106, 106,0.3);
