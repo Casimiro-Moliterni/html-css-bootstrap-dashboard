@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <!-- link bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- link font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- link style css  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="px-4">
+    <!-- link script  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- /link script  -->
+
+
+    <header class="ms-header p-3 ms-bg-light sticky-top">
+        <nav class="container-fluid">
+        <div class="row align-items-center flex-nowrap">
+          <div class="col-auto pe-0">
+            <div class="bg-white p-2">
+                <img class="d-none d-lg-flex mw-100"  src="./img/logo.svg" alt="logo-big">
+                <img  class="d-none img-fluid"  src="./img/mobile-logo.png" alt="mobilelogo">
+            </div>
+          </div>
+          <div class="col ps-0">
+                <div class="ms-bg-lightgrey d-flex h-100 p-2 d-flex align-items-center gap-2 rounded-2">
+                    <i class="fa-solid fa-magnifying-glass "></i>
+                    <div>
+                        <input type="text" id="search"  placeholder="cccccccccccccccccccccccccccccccccccc" class="border-0 ms-bg-lightgrey pe-3"> 
+                       
+                    </div>
+                </div>
+          </div>
+          <div class="col-auto flex-shrink-0">
+               <div class="d-flex gap-4 ">
+                 <i class="fa-solid fa-list d-none d-sm-none d-md-none d-lg-flex"></i>
+                 <i class="fa-solid fa-circle-question d-none d-sm-none d-md-none d-lg-flex"></i>
+                 <i class="fa-solid fa-ellipsis-vertical d-none d-sm-none d-md-none d-lg-flex"></i>
+                 <div class="dropdown">
+                    <a class="  text-decoration-none text-success"  data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-bell"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+               
+               </div>
+          </div>
+        </div>
+    </nav>
+    </header >
+    <button type="button" class="btn btn-warning rounded-4 text-center"
+        style="--bs-btn-padding-y: .0rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .75rem;">
+     process
+   </button>
+</button>
+
+
+
+<div class="col-12 d-flex align-items-center gap-2 flex-shrink-0">
+  <div class="ms-bg-blue py-1 px-2 text-white rounded-pill">Plane blaze</div>
+  <i class="fa fa-angle-double-right"></i>
+  <div class="ms-bg-blue py-1 px-2 text-white rounded-pill d-lg-none "><i class="fa-solid fa-plus"></i></div>
+  <div class="ms-bg-blue py-1 px-2 text-white rounded-pill d-none d-lg-flex ">Plane blaze</div>
+  <div class="ms-bg-blue py-1 px-2 text-white rounded-pill d-none d-lg-flex">Plane blaze</div>
+  <div class="ms-bg-blue py-1 px-2 text-white rounded-pill d-none d-lg-flex">Plane blaze</div>
+</div>
+</body>
+</html>
