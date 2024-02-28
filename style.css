@@ -46,8 +46,10 @@ body{
 }
 
 
-
-
+.ms-ul-sidebar:hover .ms-icon-rounded,
+.ms-ul-sidebar li:hover{
+    background-color: rgba(110, 106, 106,0.3);
+}
 .ms-button-student:hover .ms-icon-plus{
     color: black;
 }
