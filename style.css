@@ -79,6 +79,12 @@ body{
  
 }
 
+
+
+.ms-tr:hover{
+    --bs-table-bg:rgba(110, 106, 106,0.3);
+}
+
 .ms-ul-sidebar:hover ,
 .ms-ul-sidebar:hover .ms-icon-header-rotate{
     transform: rotate(360deg);
@@ -98,9 +104,13 @@ body{
     height: 30px;
     background-color: white;
 }
-.ms-w-70{
-    width: 70%;
-}
+
+
+
+
+
+
+
 
  @media (min-width: 991.98px) { 
     .ms-row-student{
@@ -108,5 +118,39 @@ body{
         padding-right: 2rem;
         gap: 2rem;
     }
+    .ms-w-name-70{
+        width: 65%;
+    }
+    .ms-w-10{
+        width: 10%;
+    }
+    .ms-w-8{
+        width: 8%;
+    }
+    .ms-w-5{
+        width: 5%;
+    }
   }
 
+  @media (max-width: 991.98px) { 
+
+      
+        
+ .ms-w-name-70{
+    width: 40%;
+ }
+    
+  
+    
+  }
+  @media (max-width: 767.98px) { 
+    .ms-w-25{
+        width: 25%;
+    }
+    .ms-w-name{
+        width: 50%;
+    }
+    .ms-w-off{
+        width: 100%;
+    }
+  }

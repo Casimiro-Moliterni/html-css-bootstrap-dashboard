@@ -56,12 +56,12 @@
         <div class="px-4 py-4 ms-sidebar  text-white flex-shrink-0 d-flex ">
             <div class="container-fluid d-flex flex-column ">
                  <ul class="px-0 ms-ul-sidebar" >
-                  <li class="d-flex align-items-center justify-content-center gap-3 mb-3"><i class="fa-solid fa-house text-white ms-icon-header-rotate"></i><a  class="text-decoration-none text-white d-none d-lg-block"href="#">Home</a></li>
-                  <li class="d-flex align-items-center justify-content-center gap-3 mb-3"><i class="fa-solid fa-chart-simple text-white ms-icon-header-rotate"></i><a  class="text-decoration-none text-white d-none d-lg-block"href="#">Stats</a></li>
-                  <li class="d-flex align-items-center justify-content-center gap-3 mb-3"><i class="fa-solid fa-signal text-white ms-icon-header-rotate"></i><a  class="text-decoration-none text-white d-none d-lg-block"href="#">Signal</a></li>
+                  <li class="d-flex align-items-center justify-content-center gap-3 p-2"><i class="fa-solid fa-house text-white ms-icon-header-rotate"></i><a  class="text-decoration-none text-white d-none d-lg-block"href="#">Home</a></li>
+                  <li class="d-flex align-items-center justify-content-center gap-3 p-2"><i class="fa-solid fa-chart-simple text-white ms-icon-header-rotate"></i><a  class="text-decoration-none text-white d-none d-lg-block"href="#">Stats</a></li>
+                  <li class="d-flex align-items-center justify-content-center gap-3 p-2"><i class="fa-solid fa-signal text-white ms-icon-header-rotate"></i><a  class="text-decoration-none text-white d-none d-lg-block"href="#">Signal</a></li>
                 </ul>
                   <div class=" mt-auto ms-ul-sidebar">
-                    <div class="d-flex justify-content-center align-items-center gap-3 ms-icon-rounded">          
+                    <div class="d-flex justify-content-center align-items-center gap-3 ms-icon-rounded p-1">          
                     <i class="fa-solid fa-gear text-white ms-icon-header-rotate"></i>
                     <a class="text-decoration-none text-white  d-none d-xl-block" href="#">Admin</a> 
                     </div> 
@@ -114,8 +114,8 @@
                    <div>Nuovo Studente</div>
                    <button class="border-white py-2 px-3 rounded-2 border-white ms-bg-lightblue text-white ms-button-student d-flex align-items-center"data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" >
                     <i class="fa-solid fa-plus ms-icon-plus fs-5"></i></button>
-                    <div class="offcanvas offcanvas-end ms-cl-offcanvas w-50" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                      <div class="offcanvas-header">
+                    <div class="offcanvas offcanvas-end w-50" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                      <div class="offcanvas-header ">
                         <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
                         <button type="button" class="btn-close " data-bs-dismiss="offcanvas" aria-label="Close"></button>
                       </div>
@@ -204,27 +204,27 @@
                                         <table class="table m-0">
                                          <thead>
                                             <tr >
-                                                <th class="ms-w-70">Nome</th>
-                                                <td>Data inizio</td>
-                                                <td>ROI</td>
-                                                <td class="text-center">Stato</td>
-                                                <td class="text-center">Azioni</td>
+                                                <th class="ms-w-name-70 ">Nome</th>
+                                                <td class=" d-none d-md-table-cell ms-w-10 text-nowrap">Data inizio</td>
+                                                <td class="d-none d-md-table-cell ms-w-5">ROI</td>
+                                                <td class="text-center ms-w-25 ms-w-8">Stato</td>
+                                                <td class="text-center ms-w-25 ms-w-8">Azioni</td>
                                             </tr>
                                          </thead>
                                          <tbody>
-                                            <tr>
+                                            <tr class="ms-tr">
                                               <td>
                                                 <div class="bg-whites d-flex align-items-center gap-2">
                                                  <img class="img-fluid h-30px rounded-pill" src="./img/class-avatar.jpg" alt="">
                                                  <span>Classe 75</span>
                                                </div>
                                              </td>
-                                              <td>15 Feb 2021</td>
-                                              <td>20%</td>
+                                              <td class="d-none d-md-table-cell text-nowrap">15 Feb 2021</td>
+                                              <td class="d-none d-md-table-cell">20%</td>
                                               <td class="text-center">
                                                 <span class=" bg-success text-white fw-normal rounded-2 px-1">Done</span>
                                               </td>
-                                              <td class="text-center">
+                                              <td class="text-center text-nowrap">
                                                   <button class="btn btn-outline ms-btn-icon">
                                                     <i class="fa-solid fa-pen ms-grey-icon"></i>
                                                   </button>
@@ -233,20 +233,20 @@
                                                   </button>
                                               </td>
                                             </tr>
-                                            <tr>
+                                            <tr class="ms-tr">
                                               <td>
                                                 <div class="bg-whites d-flex align-items-center gap-2">
                                                   <img class="img-fluid h-30px rounded-pill" src="./img/class-avatar.jpg" alt="">
                                                   <span>Classe 76</span>
                                                 </div>
                                               </td>
-                                              <td>15 Feb 2021</td>
-                                              <td>20%</td>
+                                              <td class="d-none d-md-table-cell text-nowrap">15 Feb 2021</td>
+                                              <td class="d-none d-md-table-cell">20%</td>
                                               <td class="text-center">
                                                 <span class=" bg-success text-white fw-normal rounded-2 px-1">Done</span>
                                            </button>
                                               </td>
-                                              <td class="text-center">
+                                              <td class="text-center text-nowrap">
                                                 <button class="btn btn-outline ms-btn-icon">
                                                   <i class="fa-solid fa-pen ms-grey-icon"></i>
                                                 </button>
@@ -255,19 +255,19 @@
                                                 </button>
                                               </td>
                                             </tr>
-                                            <tr>
+                                            <tr class="ms-tr">
                                               <td >
                                                 <div class="bg-whites d-flex align-items-center gap-2">
                                                   <img class="img-fluid h-30px rounded-pill" src="./img/class-avatar.jpg" alt="">
                                                   <span>Classe 77</span>
                                                 </div>
                                               </td>
-                                              <td>15 Feb 2021</td>
-                                              <td>20%</td>
+                                              <td class="d-none d-md-table-cell text-nowrap">15 Feb 2021</td>
+                                              <td class="d-none d-md-table-cell">20%</td>
                                               <td class="text-center">
                                                 <span class=" bg-warning text-white fw-normal rounded-2 px-1">process</span>
                                               </td>
-                                              <td class="text-center">
+                                              <td class="text-center text-nowrap">
                                                 <button class="btn btn-outline ms-btn-icon">
                                                   <i class="fa-solid fa-pen ms-grey-icon"></i>
                                                 </button>
@@ -276,20 +276,20 @@
                                                 </button>
                                               </td>
                                             </tr>
-                                            <tr>
+                                            <tr class="ms-tr">
                                               <td>
                                                 <div class="bg-whites d-flex align-items-center gap-2">
                                                   <img class="img-fluid h-30px rounded-pill" src="./img/class-avatar.jpg" alt="">
                                                   <span>Classe 78</span>
                                                 </div>
                                               </td>
-                                              <td>15 Feb 2021</td>
-                                              <td>20%</td>
+                                              <td class="d-none d-md-table-cell text-nowrap">15 Feb 2021</td>
+                                              <td class="d-none d-md-table-cell">20%</td>
                                               <td class="text-center">
                                                 <span class=" bg-success text-white fw-normal rounded-2 px-1">Done</span>
                                            </button>
                                               </td>
-                                              <td class="text-center">
+                                              <td class="text-center text-nowrap">
                                                 <button class="btn btn-outline ms-btn-icon">
                                                   <i class="fa-solid fa-pen ms-grey-icon"></i>
                                                 </button>
@@ -298,19 +298,19 @@
                                                 </button>
                                               </td>
                                             </tr>
-                                            <tr>
+                                            <tr class="ms-tr">
                                               <td>
                                                 <div class="bg-whites d-flex align-items-center gap-2">
                                                   <img class="img-fluid h-30px rounded-pill" src="./img/class-avatar.jpg" alt="">
                                                   <span>Classe 79</span>
                                                 </div>
                                               </td>
-                                              <td>15 Feb 2021</td>
-                                              <td>20%</td>
+                                              <td class="d-none d-md-table-cell text-nowrap">15 Feb 2021</td>
+                                              <td class="d-none d-md-table-cell" >20%</td>
                                               <td class="text-center">
                                                 <span class=" bg-danger text-white fw-normal rounded-2 px-1">failed</span>
                                               </td>
-                                              <td class="text-center">
+                                              <td class="text-center text-nowrap">
                                                 <button class="btn btn-outline ms-btn-icon">
                                                   <i class="fa-solid fa-pen ms-grey-icon"></i>
                                                 </button>
@@ -319,19 +319,19 @@
                                                 </button>
                                               </td>
                                             </tr>
-                                            <tr>
+                                            <tr class="ms-tr">
                                               <td>
                                                 <div class="bg-whites d-flex align-items-center gap-2">
                                                   <img class="img-fluid h-30px rounded-pill" src="./img/class-avatar.jpg" alt="">
                                                   <span>Classe 80</span>
                                                 </div>
                                               </td>
-                                              <td>15 Feb 2021</td>
-                                              <td>20%</td>
+                                              <td class="d-none d-md-table-cell text-nowrap">15 Feb 2021</td>
+                                              <td class="d-none d-md-table-cell">20%</td>
                                               <td class="text-center" >
                                                 <span class=" bg-success text-white fw-normal rounded-2 px-1">Done</span>
                                               </td>
-                                              <td class="text-center">
+                                              <td class="text-center text-nowrap">
                                                 <button class="btn btn-outline ms-btn-icon">
                                                   <i class="fa-solid fa-pen ms-grey-icon"></i>
                                                 </button>
@@ -340,19 +340,19 @@
                                                 </button>
                                               </td>
                                             </tr>
-                                            <tr>
+                                            <tr class="ms-tr">
                                               <td>
                                                 <div class="bg-whites d-flex align-items-center gap-2">
                                                   <img class="img-fluid h-30px rounded-pill" src="./img/class-avatar.jpg" alt="">
                                                   <span>Classe 81</span>
                                                 </div>
                                               </td>
-                                              <td>15 Feb 2021</td>
-                                              <td>20%</td>
+                                              <td class="d-none d-md-table-cell text-nowrap">15 Feb 2021</td>
+                                              <td class="d-none d-md-table-cell">20%</td>
                                               <td class="text-center">
                                                 <span class=" bg-danger text-white fw-normal rounded-2 px-1">failed</span>
                                               </td>
-                                              <td class="text-center">
+                                              <td class="text-center text-nowrap">
                                                 <button class="btn btn-outline ms-btn-icon">
                                                   <i class="fa-solid fa-pen ms-grey-icon"></i>
                                                 </button>
@@ -361,19 +361,19 @@
                                                 </button>
                                               </td>
                                             </tr>
-                                            <tr>
+                                            <tr class="ms-tr">
                                               <td>
                                                 <div class="bg-whites d-flex align-items-center gap-2">
                                                   <img class="img-fluid h-30px rounded-pill" src="./img/class-avatar.jpg" alt="">
                                                   <span>Classe 82</span>
                                                 </div>
                                               </td>
-                                              <td>15 Feb 2021</td>
-                                              <td>20%</td>
+                                              <td class="d-none d-md-table-cell text-nowrap">15 Feb 2021</td>
+                                              <td class="d-none d-md-table-cell">20%</td>
                                               <td class="text-center">
                                                 <span class=" bg-success text-white fw-normal rounded-2 px-1">Done</span>
                                               </td>
-                                              <td class="text-center">
+                                              <td class="text-center text-nowrap">
                                                 <button class="btn btn-outline ms-btn-icon">
                                                   <i class="fa-solid fa-pen ms-grey-icon"></i>
                                                 </button>
@@ -400,7 +400,7 @@
                                             </button>
                                           </h2>
                                           <div id="flush-collapseOne" class="accordion-collapse collapse fw-medium" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                            <div class="accordion-body">Clicca sul + in alto nella sezione blu.*</div>
                                           </div>
                                         </div>
                                         <div class="accordion-item">
@@ -410,7 +410,7 @@
                                             </button>
                                           </h2>
                                           <div id="flush-collapseTwo" class="accordion-collapse collapse fw-medium" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                            <div class="accordion-body">Clicca sull'icona della campanella.</div>
                                           </div>
                                         </div>
                                         <div class="accordion-item">
