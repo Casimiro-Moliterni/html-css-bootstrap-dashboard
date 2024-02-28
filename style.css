@@ -53,6 +53,11 @@ body{
 .ms-icon-fa-bell:hover,
 .ms-header-col-center:hover .ms-icon-glass{
     transform: scale(1.4);
+    cursor: pointer;
+}
+
+.ms-icon i:hover{
+    transform: scale(1.2);
 }
 
 .ms-ul-sidebar:hover .ms-icon-rounded,
