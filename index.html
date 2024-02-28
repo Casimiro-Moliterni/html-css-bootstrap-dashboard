@@ -68,38 +68,38 @@
                   </div>
             </div>
         </div>
-        <main class="flex-grow-1 overflow-y-auto" >
+        <main class="flex-grow-1 overflow-y-auto overflow-x-auto " >
             <section class="container-fluid  px-2 py-4  ms-bg-lightblue text-white px-lg-2 py-lg-3">
                <div class="row g-3 g-lg-0">
                 <div class="col-12 col-md-4 col-lg-6 order-md-0 order-2">
                   <div class="row py-2">
                     <div class="col-12 d-flex align-items-center gap-2 ">
                          <h2>Boolean</h2>
-                         <button type="button" class="btn btn-primary rounded-pill ms-bg-blue text-white  d-lg-flex fw-medium"
+                         <button type="button" class="text-nowrap  btn btn-primary rounded-pill ms-bg-blue text-white  d-lg-flex fw-medium"
                          style="--bs-btn-padding-y: .18rem; --bs-btn-padding-x: .6rem; --bs-btn-font-size: .75rem;">
                          Plane blaze
                          </button>
                     </div>
                     <div class="col-12 d-flex align-items-center gap-2 ">
-                      <button type="button" class="btn btn-primary rounded-pill ms-bg-blue text-white  d-lg-flex fw-medium"
+                      <button type="button" class="text-nowrap  btn btn-primary rounded-pill ms-bg-blue text-white  d-lg-flex fw-medium"
                       style="--bs-btn-padding-y: .18rem; --bs-btn-padding-x: .6rem; --bs-btn-font-size: .75rem;">
                        3 app
                       </button>
                       <i class="fa fa-angle-double-right"></i>
-                      <button type="button" class="btn btn-primary rounded-pill ms-bg-blue text-white d-lg-none fw-medium"
+                      <button type="button" class="text-nowrap  btn btn-primary rounded-pill ms-bg-blue text-white d-lg-none fw-medium"
                       style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .6rem; --bs-btn-font-size: .75rem;">
                       <i class="fa-solid fa-plus"></i>
                       </button>
                 
-                      <button type="button" class="btn btn-primary rounded-pill ms-bg-blue text-white d-none d-lg-flex fw-medium"
+                      <button type="button" class="text-nowrap  btn btn-primary rounded-pill ms-bg-blue text-white d-none d-lg-flex fw-medium"
                       style="--bs-btn-padding-y: .18rem; --bs-btn-padding-x: .6rem; --bs-btn-font-size: .75rem;">
                       Boolean mobile app
                       </button>
-                      <button type="button" class="btn btn-primary rounded-pill ms-bg-blue text-white d-none d-lg-flex fw-medium"
+                      <button type="button" class="text-nowrap  btn btn-primary rounded-pill ms-bg-blue text-white d-none d-lg-flex fw-medium"
                       style="--bs-btn-padding-y: .18rem; --bs-btn-padding-x: .6rem; --bs-btn-font-size: .75rem;">
                       Boolean web app
                       </button>
-                      <button type="button" class="btn btn-primary rounded-pill ms-bg-blue text-white d-none d-lg-flex fw-medium"
+                      <button type="button" class=" text-nowrap btn btn-primary rounded-pill ms-bg-blue text-white d-none d-lg-flex fw-medium"
                       style="--bs-btn-padding-y: .18rem; --bs-btn-padding-x: .6rem; --bs-btn-font-size: .75rem;">
                       Boolean blog app
                       </button>
@@ -207,8 +207,8 @@
                                                 <th class="ms-w-70">Nome</th>
                                                 <td>Data inizio</td>
                                                 <td>ROI</td>
-                                                <td>Stato</td>
-                                                <td>Azioni</td>
+                                                <td class="text-center">Stato</td>
+                                                <td class="text-center">Azioni</td>
                                             </tr>
                                          </thead>
                                          <tbody>
@@ -221,22 +221,16 @@
                                              </td>
                                               <td>15 Feb 2021</td>
                                               <td>20%</td>
-                                              <td>
-                                                <button type="button" class="btn btn-success rounded-4 text-center"
-                                                style="--bs-btn-padding-y: .0rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .75rem;">
-                                           Done 
-                                           </button>
+                                              <td class="text-center">
+                                                <span class=" bg-success text-white fw-normal rounded-2 px-1">Done</span>
                                               </td>
-                                              <td class="ps-0">
-                                                <div class="ms-grey-icon d-flex gap-1">
+                                              <td class="text-center">
                                                   <button class="btn btn-outline ms-btn-icon">
                                                     <i class="fa-solid fa-pen ms-grey-icon"></i>
                                                   </button>
-                                                   
                                                   <button class="btn btn-outline ms-btn-icon">
                                                     <i class="fa-solid fa-trash ms-grey-icon"></i>
                                                   </button>
-                                                </div>
                                               </td>
                                             </tr>
                                             <tr>
@@ -248,13 +242,18 @@
                                               </td>
                                               <td>15 Feb 2021</td>
                                               <td>20%</td>
-                                              <td>
-                                                <button type="button" class="btn btn-success rounded-4 text-center"
-                                                style="--bs-btn-padding-y: .0rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .75rem;">
-                                           Done 
+                                              <td class="text-center">
+                                                <span class=" bg-success text-white fw-normal rounded-2 px-1">Done</span>
                                            </button>
                                               </td>
-                                              <td>nome</td>
+                                              <td class="text-center">
+                                                <button class="btn btn-outline ms-btn-icon">
+                                                  <i class="fa-solid fa-pen ms-grey-icon"></i>
+                                                </button>
+                                                <button class="btn btn-outline ms-btn-icon">
+                                                  <i class="fa-solid fa-trash ms-grey-icon"></i>
+                                                </button>
+                                              </td>
                                             </tr>
                                             <tr>
                                               <td >
@@ -265,13 +264,17 @@
                                               </td>
                                               <td>15 Feb 2021</td>
                                               <td>20%</td>
-                                              <td>
-                                                <button type="button" class="btn btn-warning rounded-4 text-center text-white"
-                                                  style="--bs-btn-padding-y: .0rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .75rem;">
-                                                   process
-                                                 </button>
+                                              <td class="text-center">
+                                                <span class=" bg-warning text-white fw-normal rounded-2 px-1">process</span>
                                               </td>
-                                              <td>nome</td>
+                                              <td class="text-center">
+                                                <button class="btn btn-outline ms-btn-icon">
+                                                  <i class="fa-solid fa-pen ms-grey-icon"></i>
+                                                </button>
+                                                <button class="btn btn-outline ms-btn-icon">
+                                                  <i class="fa-solid fa-trash ms-grey-icon"></i>
+                                                </button>
+                                              </td>
                                             </tr>
                                             <tr>
                                               <td>
@@ -282,13 +285,18 @@
                                               </td>
                                               <td>15 Feb 2021</td>
                                               <td>20%</td>
-                                              <td>
-                                                <button type="button" class="btn btn-success rounded-4 text-center"
-                                                style="--bs-btn-padding-y: .0rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .75rem;">
-                                           Done 
+                                              <td class="text-center">
+                                                <span class=" bg-success text-white fw-normal rounded-2 px-1">Done</span>
                                            </button>
                                               </td>
-                                              <td>nome</td>
+                                              <td class="text-center">
+                                                <button class="btn btn-outline ms-btn-icon">
+                                                  <i class="fa-solid fa-pen ms-grey-icon"></i>
+                                                </button>
+                                                <button class="btn btn-outline ms-btn-icon">
+                                                  <i class="fa-solid fa-trash ms-grey-icon"></i>
+                                                </button>
+                                              </td>
                                             </tr>
                                             <tr>
                                               <td>
@@ -299,13 +307,17 @@
                                               </td>
                                               <td>15 Feb 2021</td>
                                               <td>20%</td>
-                                              <td>
-                                                <button type="button" class="btn btn-danger rounded-4 text-center"
-                                                style="--bs-btn-padding-y: .0rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .75rem;">
-                                             failed
-                                           </button>
+                                              <td class="text-center">
+                                                <span class=" bg-danger text-white fw-normal rounded-2 px-1">failed</span>
                                               </td>
-                                              <td>nome</td>
+                                              <td class="text-center">
+                                                <button class="btn btn-outline ms-btn-icon">
+                                                  <i class="fa-solid fa-pen ms-grey-icon"></i>
+                                                </button>
+                                                <button class="btn btn-outline ms-btn-icon">
+                                                  <i class="fa-solid fa-trash ms-grey-icon"></i>
+                                                </button>
+                                              </td>
                                             </tr>
                                             <tr>
                                               <td>
@@ -316,13 +328,17 @@
                                               </td>
                                               <td>15 Feb 2021</td>
                                               <td>20%</td>
-                                              <td>
-                                                <button type="button" class="btn btn-success rounded-4 text-center"
-                                                style="--bs-btn-padding-y: .0rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .75rem;">
-                                           Done 
-                                           </button>
+                                              <td class="text-center" >
+                                                <span class=" bg-success text-white fw-normal rounded-2 px-1">Done</span>
                                               </td>
-                                              <td>nome</td>
+                                              <td class="text-center">
+                                                <button class="btn btn-outline ms-btn-icon">
+                                                  <i class="fa-solid fa-pen ms-grey-icon"></i>
+                                                </button>
+                                                <button class="btn btn-outline ms-btn-icon">
+                                                  <i class="fa-solid fa-trash ms-grey-icon"></i>
+                                                </button>
+                                              </td>
                                             </tr>
                                             <tr>
                                               <td>
@@ -333,13 +349,17 @@
                                               </td>
                                               <td>15 Feb 2021</td>
                                               <td>20%</td>
-                                              <td>
-                                                <button type="button" class="btn btn-danger rounded-4 text-center"
-                                                style="--bs-btn-padding-y: .0rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .75rem;">
-                                             failed
-                                           </button>
+                                              <td class="text-center">
+                                                <span class=" bg-danger text-white fw-normal rounded-2 px-1">failed</span>
                                               </td>
-                                              <td>nome</td>
+                                              <td class="text-center">
+                                                <button class="btn btn-outline ms-btn-icon">
+                                                  <i class="fa-solid fa-pen ms-grey-icon"></i>
+                                                </button>
+                                                <button class="btn btn-outline ms-btn-icon">
+                                                  <i class="fa-solid fa-trash ms-grey-icon"></i>
+                                                </button>
+                                              </td>
                                             </tr>
                                             <tr>
                                               <td>
@@ -350,13 +370,17 @@
                                               </td>
                                               <td>15 Feb 2021</td>
                                               <td>20%</td>
-                                              <td>
-                                                <button type="button" class="btn btn-success rounded-4 text-center"
-                                                style="--bs-btn-padding-y: .0rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .75rem;">
-                                           Done 
-                                           </button>
+                                              <td class="text-center">
+                                                <span class=" bg-success text-white fw-normal rounded-2 px-1">Done</span>
                                               </td>
-                                              <td>nome</td>
+                                              <td class="text-center">
+                                                <button class="btn btn-outline ms-btn-icon">
+                                                  <i class="fa-solid fa-pen ms-grey-icon"></i>
+                                                </button>
+                                                <button class="btn btn-outline ms-btn-icon">
+                                                  <i class="fa-solid fa-trash ms-grey-icon"></i>
+                                                </button>
+                                              </td>
                                             </tr>
                                          </tbody>
                                         </table>
