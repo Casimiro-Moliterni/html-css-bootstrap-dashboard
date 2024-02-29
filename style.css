@@ -130,17 +130,22 @@ body{
     .ms-w-5{
         width: 5%;
     }
+    .offcanvas.offcanvas-end{
+        width: 50%;
+    }
   }
 
   @media (max-width: 991.98px) { 
 
-      
+  
         
  .ms-w-name-70{
     width: 40%;
  }
     
-  
+ .offcanvas.offcanvas-end{
+    width: 70%;
+}
     
   }
   @media (max-width: 767.98px) { 
@@ -153,4 +158,8 @@ body{
     .ms-w-off{
         width: 100%;
     }
+    .offcanvas.offcanvas-end{
+        width: 100%;
+    }
   }
+ 
