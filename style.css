@@ -115,7 +115,9 @@ span{
     height: 30px;
     background-color: white;
 }
-
+.ms-button-student:active{
+    border-color: black;
+}
 
 
 
