@@ -122,33 +122,33 @@
                       <div class="offcanvas-body ">
                         <div class="container">
                           <form class="row g-3">
-                            <div class="col-md-8 ">
+                            <div class="col-6 ">
                              <label for="inputname" class="form-label">Name</label>
                              <input type="text" class="form-control" id="inputname" >
                             </div>
-                            <div class="col-md-4 ">
+                            <div class="col-6 ">
                              <label for="inputsecondname" class="form-label">Cognome</label>
                              <input type="text" class="form-control" id="inputsecondname" >
                             </div>
-                            <div class="col-md-8 ">
+                            <div class="col-6 ">
                               <label for="inputemail" class="form-label">Email</label>
                               <div class="d-flex">
                                 <span class="input-group-text rounded-start rounded-0" id="basic-addon1">@</span>          
-                              <input type="text" class="form-control rounded-end rounded-0" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                              <input type="text" class="form-control rounded-end rounded-0"  aria-label="Username" aria-describedby="basic-addon1">
                               </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-6">
                               <label for="inputPassword4" class="form-label">Password</label>          
                               <input type="password" class="form-control" id="inputPassword4">
                             </div>
-                            <div class="col-md-8 ">
+                            <div class="col-6 ">
                               <label for="inputemail" class="form-label">Indirizzo email</label>
                               <div class="d-flex">
                                 <span class="input-group-text rounded-start rounded-0" id="basic-addon1">@</span>          
-                              <input type="text" class="form-control rounded-end rounded-0" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                              <input type="text" class="form-control rounded-end rounded-0"  aria-label="Username" aria-describedby="basic-addon1">
                               </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-6">
                               <label for="inputPassword4" class="form-label">Password</label>          
                               <input type="password" class="form-control" id="inputPassword4">
                             </div>
@@ -156,16 +156,20 @@
                               <label for="inputAddress" class="form-label">Indirizzo</label>
                               <input type="text" class="form-control" id="inputAddress" >
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-6">
                               <label for="inputCity" class="form-label">Città</label>
                               <input type="text" class="form-control" id="inputCity">
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-4">
                               <label for="inputState" class="form-label">Stato</label>
                               <select id="inputState" class="form-select">
                                 <option selected>Scegli...</option>
                                 <option>...</option>
                               </select>
+                            </div>
+                            <div class="col-2">
+                              <label for="inputcap" class="form-label">CAP</label>
+                              <input type="text" class="form-control" id="inputcap">
                             </div>
                            <div class="col-12">
                             <div class="input-group mb-3">
@@ -198,20 +202,20 @@
                             <div class="col-12">
                                 <div class="card w-100" style="width: 18rem;">
                                     <div class="card-header h3">
-                                      Featured
+                                      Prossime classi
                                     </div>
                                     <div class="table-responsive p-3">
                                         <table class="table m-0">
                                          <thead>
                                             <tr >
                                                 <th class="ms-w-name-70 ">Nome</th>
-                                                <th class=" d-none d-md-table-cell ms-w-10 text-nowrap">Data inizio</th>
-                                                <th class="d-none d-md-table-cell ms-w-5">ROI</th>
+                                                <th class=" d-none d-md-table-cell ms-w-10 text-nowrap text-center">Data inizio</th>
+                                                <th class="d-none d-md-table-cell ms-w-5 text-center">ROI</th>
                                                 <th class="text-center ms-w-25 ms-w-8">Stato</th>
                                                 <th class="text-center ms-w-25 ms-w-8">Azioni</th>
                                             </tr>
                                          </thead>
-                                         <tbody>
+                                         <tbody class="text-center">
                                             <tr class="ms-tr">
                                               <td>
                                                 <div class="bg-whites d-flex align-items-center gap-2">
@@ -433,7 +437,7 @@
                             <div class="col-12">
                                 <div class="card w-100" style="width: 18rem;">
                                     <div class="card-header h3">
-                                      Featured
+                                      Todo
                                     </div>
                                     <ul class="list-group p-3 " >
                                         <li class="list-group-item  fw-medium"><input type="checkbox" class="me-2 " >Kickoff nuove classi</li>

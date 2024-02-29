@@ -110,6 +110,23 @@ body{
 
 
 
+@media (min-width: 992px) { 
+    .offcanvas.offcanvas-end{
+        width: 50%;
+    }
+    .ms-w-name-70{
+        width: 65%;
+    }
+    .ms-w-10{
+        width: 10%;
+    }
+    .ms-w-8{
+        width: 8%;
+    }
+    .ms-w-5{
+        width: 5%;
+    }
+ }
 
  @media (min-width: 991.98px) { 
     .ms-row-student{
@@ -118,7 +135,7 @@ body{
         gap: 2rem;
     }
     .ms-w-name-70{
-        width: 65%;
+        width: 50%;
     }
     .ms-w-10{
         width: 10%;
@@ -144,6 +161,7 @@ body{
 
   @media (max-width: 991.98px) { 
 
+  
         
  .ms-w-name-70{
     width: 40%;
@@ -165,35 +183,3 @@ body{
  
   }
  
-
-
-
-  @media (min-width: 991.98px) { 
-    .ms-row-student{
-        justify-content: center;
-        padding-right: 2rem;
-        gap: 2rem;
-    }
-    .ms-w-name-70{
-        width: 65%;
-    }
-    .ms-w-10{
-        width: 10%;
-    }
-    .ms-w-8{
-        width: 8%;
-    }
-    .ms-w-5{
-        width: 5%;
-    }
-  
-  }
-
-
-
-  @media (min-width: 768px) { 
-    .ms-row-student{
-        justify-content: center;
-       
-    }
-   }
