@@ -85,11 +85,6 @@ body{
     --bs-table-bg:rgba(110, 106, 106,0.3);
 }
 
-.ms-ul-sidebar:hover ,
-.ms-ul-sidebar:hover .ms-icon-header-rotate{
-    transform: rotate(360deg);
-}
-
 
 
 .ms-button-student:hover .ms-icon-plus{
