@@ -79,7 +79,23 @@ body{
  
 }
 
+span{
+    font-size: 13px;
+    padding: 2px 6px;
+}
+.ms-section-hero .btn:hover{
+    background-color: rgba(47, 19, 255, 0.928);
+    border-color: white;
+}
 
+.ms-button-student:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.ms-btn-icon:hover{
+    border-color: #6c757d;
+   
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;s
+}
 
 .ms-tr:hover{
     --bs-table-bg:rgba(110, 106, 106,0.3);
